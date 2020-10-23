@@ -14,7 +14,7 @@ public class RestConfig implements RepositoryRestConfigurer {
         config.exposeIdsFor(Beer.class);
         config.exposeIdsFor(Rating.class);
         config.setBasePath("/api");
-        config.setDefaultPageSize(5);
+        config.setDefaultPageSize(20);
       }
 
 }
